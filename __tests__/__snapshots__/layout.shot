@@ -1,5 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`It creates advanced layout 1`] = `
+{
+  "columns": [
+    {
+      "text": "image"
+    },
+    {
+      "elements": [
+        {
+          "text": "Standard license"
+        },
+        {
+          "text": "Full resolution 1920x1080 • JPEG"
+        },
+        {
+          "text": "ID: 1030114"
+        },
+        {
+          "text": "remove"
+        }
+      ]
+    },
+    {
+      "text": "$19.00"
+    }
+  ]
+}
+`;
+
 exports[`It creates simple layout with rows 1`] = `
 {
   "elements": [

@@ -12,6 +12,7 @@ const ImageType: r.TypeInfo = {
     },
     {
       type: 'object',
+      required: ['image'],
       properties: {
         image: {
           type: 'string'

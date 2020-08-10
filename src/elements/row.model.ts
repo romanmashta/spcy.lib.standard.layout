@@ -8,3 +8,5 @@ export type ColumnType = H1 | H2 | H3 | Typography | Image | Container;
 export interface Row extends Element {
   columns: ColumnType[];
 }
+
+export const isRow = (row: Row): row is Row => (row as Row).columns !== undefined;
