@@ -7,6 +7,14 @@ const ColumnTypeType: r.TypeInfo = {
   $package: 'lib.standard.layout',
   oneOf: [
     {
+      $ref: 'Text',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'AltText',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
       $ref: 'H1',
       $refPackage: 'lib.standard.layout'
     },
@@ -19,7 +27,35 @@ const ColumnTypeType: r.TypeInfo = {
       $refPackage: 'lib.standard.layout'
     },
     {
-      $ref: 'Typography',
+      $ref: 'HH1',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'HH2',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'HH3',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'Subtitle',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'AltSubtitle',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'Caption',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'ButtonText',
+      $refPackage: 'lib.standard.layout'
+    },
+    {
+      $ref: 'Overline',
       $refPackage: 'lib.standard.layout'
     },
     {
